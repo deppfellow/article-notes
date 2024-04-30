@@ -17,7 +17,7 @@ Sebelum memulai pembahasan, 3 prinsip dasar Javascript yang penting diketahui. P
 
 Oke, jadi 3 prinsip dasar. **Thread of execution**, **memory**, dan **call stack**. Misalkan kita memiliki kode seperti dibawah ini:
 
-<img src="D:\any_code\article-notes\javascript-hard-parts\closure\img\prereq-code.png" alt="prereq-code" style="zoom:50%;" />
+<img src=".\img\prereq-code.png" alt="prereq-code" style="zoom:50%;" />
 
 Yang terjadi adalah:
 
@@ -41,7 +41,7 @@ Poin yang perlu diperhatikan yaitu pada poin nomor 4 dan 5, *local execution con
 
 Singkatnya, untuk setiap fungsi yang didefinisikan pada Javascript, parameter dari fungsi tersebut bisa berbentuk apapun. String, integer, object, bahkan fungsi bisa menjadi argument dari fungsi lainnya. Inilah mengapa sering disebut istilah ***"Javascript as first class function"***. Perhatikan kode berikut:
 
-<img src="D:\any_code\article-notes\javascript-hard-parts\closure\img\high-order-func-code.png" alt="high-order-func-code" style="zoom: 50%;" />
+<img src=".\img\high-order-func-code.png" alt="high-order-func-code" style="zoom: 50%;" />
 
 Dari kode diatas, kita memberikan fungsi `multiplyBy2` dan `addBy7` sebagai argument ke fungsi `copyAndManipulate`. Dalam kasus ini, `multiplyBy2` dan `addBy7` disebut sebagai *callback*.
 
@@ -53,7 +53,7 @@ Dari kode diatas, kita memberikan fungsi `multiplyBy2` dan `addBy7` sebagai argu
 
 Sekarang perhatikan kode berikut:
 
-<img src="D:\any_code\article-notes\javascript-hard-parts\closure\img\closure-code.png" alt="closure-code" style="zoom:50%;" />
+<img src=".\img\closure-code.png" alt="closure-code" style="zoom:50%;" />
 
 Mari kita jabarkan eksekusi kode tersebut:
 
