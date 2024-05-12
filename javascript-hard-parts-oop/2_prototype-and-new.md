@@ -108,7 +108,7 @@ user_1.increment();
 
 Now remember that when we create a function (e.g. UserCreation function), JavaScript also creates for us the object of those function. So when we creating our new object `user_1`, under the hood, here's what happen:
 
-1.  JavaScript create a local execution context from calling `UserCreation` function. Its store its argument to its parameters, at the same time, its also create a new object called `this` inside those execution context.
+1.  JavaScript create a local execution context from calling `UserCreation` function. Its store its argument to its parameters, at the same time, its also create a new *implicit* object called `this` inside those execution context.
 
     ```javascript
     this = {
@@ -145,7 +145,7 @@ For final check, why we going through all of this so that:
 
 
 
-In ES2015, JavaScript add another method to help us using `class` keyword. Head up next to ...
+In ES6, JavaScript add another method to help us using `class` keyword. Head up next to ...
 
 
 

@@ -2,4 +2,8 @@
 
 ---
 
-I've never been much of a ambitious person before, but, forget everything you think you know about being ambitious person because Raid Shadow Legends is one of the most ambitious RPG projects of 2019 has just been released and will change everything. Just look at the level of detail of these characters! If you use the code in the description you can start with 50,000 silver and join the Special Launch Tournament, and you better hurry because it's getting big fast! You can play for totally free with the link below on your smartphone.
+Hello folks, here you'll find all of my notes and my writing from my journey on learning several things. The structure of this repository is, each directory will cover one topic with sub-directory will cover one section of its topic. Currently its still not much but I'll update it regulary.
+
+Latest completed sub-topic:
+
+[12-05-2024] JavaScript Hard Parts - OOP
